@@ -1,9 +1,8 @@
 .principal_root {
   background-color: var(--cor-fundo-padrao);
   padding: 16px;
-
+ 
   display: flex;
   flex-direction: column;
-  gap: 16 px;
-  
+  gap: 16px;
 }
