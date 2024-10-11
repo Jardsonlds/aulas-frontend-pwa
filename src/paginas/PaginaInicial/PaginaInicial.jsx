@@ -4,18 +4,18 @@ import Principal from '../../comum/componentes/Principal/Principal';
 import './PaginaInicial.css';
 
 const PaginaInicial = () => {
-const navigate = useNavigate();
+  const navigate = useNavigate();
 
-return (
-<Principal> 
-    <BotaoCustomizado
+  return (
+    <Principal titulo="Página Inicial">
+      <BotaoCustomizado
         cor="primaria"
-        aoClicar={() => navigate ('/lista-produtos')}
+        aoClicar={() => navigate('/lista-produtos')}
       >
         Lista Produtos
       </BotaoCustomizado>
-      </Principal>
-    );
+    </Principal>
+  );
 };
 
 export default PaginaInicial;
