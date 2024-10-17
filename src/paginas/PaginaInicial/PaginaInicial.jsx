@@ -3,6 +3,7 @@ import BotaoCustomizado from '../../comum/componentes/BotaoCustomizado/BotaoCust
 import Principal from '../../comum/componentes/Principal/Principal';
 import './PaginaInicial.css';
 
+
 const PaginaInicial = () => {
   const navigate = useNavigate();
 

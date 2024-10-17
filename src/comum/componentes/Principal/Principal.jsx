@@ -1,5 +1,5 @@
-import { Link } from 'react-router-dom';
-import './Principal.css';
+import { Link } from "react-router-dom";
+import "./Principal.css";
 
 function Principal({ voltarPara, titulo, children }) {
   return (
